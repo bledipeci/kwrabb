@@ -1,0 +1,48 @@
+@import url('https://fonts.cdnfonts.com/css/mont');
+@import url('https://db.onlinewebfonts.com/c/3724ece79a634e7b5168905d01e59a64?family=Maison+Neue+Book'); 
+@import url('https://db.onlinewebfonts.com/c/4a373e70cd01dec089c1dd1185ceba51?family=Maison+Neue+Bold'); 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("background.png"), lightgray 50% / cover no-repeat;
+    mix-blend-mode: lighten;
+}
+.navbar{
+    text-align: center;
+    justify-content: center;
+    padding-top: 51px;
+    /* margin-left: 130px;
+    margin-top: 51px;
+    margin-right: 130px;
+    margin-bottom: 2492px; */
+}
+.navbar li, .navbar a{
+    display: inline-block;
+    text-decoration: none;
+    color: #555;
+    font-family: 'Maison Neue Book';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.nav-item{
+    padding-right: 41px;
+}
+#logo{
+    padding-right: 251px;
+    color: #4A69BD;
+    font-family: Mont;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.contact{
+    padding-left: 231px;
+}
